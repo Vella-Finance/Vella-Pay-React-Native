@@ -23,7 +23,7 @@ yarn add vella-pay-react-native
 
 
 
-<img width="306" alt="Screenshot of library in action" src="https://user-images.githubusercontent.com/41248079/126550307-5f12c6d8-81af-4f26-951b-5d6514304022.png">
+<img width="306" alt="Screenshot" src="https://res.cloudinary.com/dm9otxkot/image/upload/v1675281082/IMG_7194_iphone13starlight_portrait_qgz8wc.png">
 
 ### [](https://github.com/vella-finance/vella-pay-react-native#usage) Usage 1 - Autoload Widget
 
