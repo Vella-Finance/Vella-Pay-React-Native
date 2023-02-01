@@ -2,7 +2,7 @@ import * as React from 'react'
 import { useState, useEffect, forwardRef, useRef, useImperativeHandle } from 'react';
 import { Modal, View, ActivityIndicator, SafeAreaView } from 'react-native';
 import { WebView, WebViewNavigation } from 'react-native-webview';
-import { getAmountValueInKobo } from './helper';
+import { getAmountValue } from './helper';
 import { VellaProps } from './types';
 
 const CLOSE_URL = 'close';
@@ -69,13 +69,13 @@ const Vella: React.ForwardRefRenderFunction<React.ReactNode, VellaProps> = (
                 function payWithVella() {
 
                     var refString = '${reference}';
-                    if (ref === null || ref === "" || ref === undefined) {
+                    if (refString === null || refString === "" || refString === undefined) {
                         refString =  GenerateRandStrings(25);
                     }
                     const vellaSDK = VellaCheckoutSDK.init('${vellaKey}', {
                     email: '${billingEmail}',
                     name: '${billingName}',
-                    amount: ${getAmountValueInKobo(amount)},
+                    amount: ${getAmountValue(amount)},
                     currency: '${currency}',
                     merchant_id: '${merchantId}',
                     reference: refString,

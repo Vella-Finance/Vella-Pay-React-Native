@@ -58,7 +58,7 @@ export function toAmountInKobo(amountValue: AmountValue) {
   return amountValue;
 }
 
-export const getAmountValueInKobo = (amount: AmountValue): number => {
+export const getAmountValue = (amount: AmountValue): number => {
   if (isValidDecimalMonetaryValue(amount)) {
     return toAmountInKobo(amount);
   }

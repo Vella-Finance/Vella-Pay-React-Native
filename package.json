@@ -6,7 +6,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "Vella Finance  <hello@vella.finance>",
-  "license": "MIT",
+  "license": "Apache",
   "files": [
     "android",
     "ios",
