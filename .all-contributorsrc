@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "fujahgabriel",
+      "name": "Gabriel Ajenifuja",
+      "avatar_url": "https://res.cloudinary.com/dm9otxkot/image/upload/v1675265724/T03202JM3FF-U0325911BU4-09cc4fb6b989-512_ajyyiq.jpg",
+      "profile": "https://github.com/fujahgabriel",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "vella-pay-react-native",
+  "projectOwner": "vella-finance",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
